@@ -8,8 +8,20 @@
 	  "grid-container"
 	  "author";
 
-	background-color: lightgrey;
+	background-color: white;
+	padding: 10px;
   }
+  
+	p {
+		width: 100%;
+		text-align: center;
+		background: #2d2d2d;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
 
   .author {
 	text-align: center;
@@ -57,8 +69,12 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1rem;
-	background-color: white;
 	height: 60px;
+	background-color: lightgrey;
+  }
+  
+  .number {
+	  padding: 15px 0;
   }
 
   .strip {
@@ -100,5 +116,12 @@
 	  text-align: center;
 	  padding: 20px;
 	  box-sizing: border-box;
+	}
+	
+	p {
+		width: 960px;
+		text-align: center;
+		background: white;
+		color: #000;
 	}
   }

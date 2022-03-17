@@ -31,7 +31,7 @@ const shuffleBtn = document.getElementById("shuffleBtn");
 		(i + 1) +
 		'</div><div class="min"><div class="strip" style="background-color:' +
 		colors[i] +
-		'"></div><div>' +
+		'"></div><div class="number">' +
 		(i + 1) +
 		"</div></div></div>";
 	}
@@ -50,7 +50,7 @@ const shuffleBtn = document.getElementById("shuffleBtn");
 		(colors.indexOf(copyColors[i]) + 1) +
 		'</div><div class="min"><div class="strip" style="background-color:' +
 		copyColors[i] +
-		'"></div><div>' +
+		'"></div><div class="number">' +
 		(colors.indexOf(copyColors[i]) + 1) +
 		"</div></div></div>";
 	}
